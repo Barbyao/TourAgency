@@ -25,8 +25,7 @@ namespace TourAgency.Controllers
         }
 
         public IActionResult Tours([FromBody]string request)
-        {
-            string responce = Tour.GetInfo(request); 
+        { 
             return View();
         }
 

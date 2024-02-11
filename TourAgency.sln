@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourAgency", "TourAgency\TourAgency.csproj", "{4C0A6502-7358-4BF2-BAAB-F93B5C225B84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourAgency", "TourAgency\TourAgency.csproj", "{4C0A6502-7358-4BF2-BAAB-F93B5C225B84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourAgency.API.Models", "TourAgency.API.Models\TourAgency.API.Models.csproj", "{F31EE533-2FD3-4390-A879-403ADCE6D69A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourAgency.API.Models", "TourAgency.API.Models\TourAgency.API.Models.csproj", "{F31EE533-2FD3-4390-A879-403ADCE6D69A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourAgency.API.Core", "TourAgency.API.Core\TourAgency.API.Core.csproj", "{D08DEBE3-5441-42E7-B1B5-E4B0CDBAEFCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourAgency.API.Core", "TourAgency.API.Core\TourAgency.API.Core.csproj", "{D08DEBE3-5441-42E7-B1B5-E4B0CDBAEFCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourAgency.DataContext", "TourAgency.Data.Model\TourAgency.DataContext.csproj", "{773E2508-D4BB-4719-8DD7-647CC0E5E36F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourAgency.DataContext", "TourAgency.Data.Model\TourAgency.DataContext.csproj", "{773E2508-D4BB-4719-8DD7-647CC0E5E36F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CBAF6EB8-6A34-4EBB-A391-B89E616089E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TourAgency.UnitTests", "TourAgency.UnitTests\TourAgency.UnitTests.csproj", "{D36C4B5C-AEB0-4306-B0B4-F6967C000431}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TourAgency.UnitTests", "TourAgency.UnitTests\TourAgency.UnitTests.csproj", "{D36C4B5C-AEB0-4306-B0B4-F6967C000431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{B82BDBB5-5625-4711-8BF9-64B23E0EBB5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{D36C4B5C-AEB0-4306-B0B4-F6967C000431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D36C4B5C-AEB0-4306-B0B4-F6967C000431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D36C4B5C-AEB0-4306-B0B4-F6967C000431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82BDBB5-5625-4711-8BF9-64B23E0EBB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82BDBB5-5625-4711-8BF9-64B23E0EBB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82BDBB5-5625-4711-8BF9-64B23E0EBB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82BDBB5-5625-4711-8BF9-64B23E0EBB5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
